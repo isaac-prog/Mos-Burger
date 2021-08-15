@@ -1,0 +1,123 @@
+.logo{
+    height:80px;
+    margin-bottom:0;
+}
+
+.form-control{
+    border-radius:20px;
+}
+
+.form-control:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.main-container{
+    display:flex;
+    justify-content:center
+}
+
+
+.carousel{
+    width:100vw;
+}
+
+.d-block{
+    height:50vh
+}  
+
+.lower-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 20px;
+    background-color:rgb(245, 245, 245)
+}
+
+.left-container{
+    flex-grow:1;
+    margin-right:20px;
+    display:flex;
+}
+
+.catalog{
+    flex-grow:1;
+    height:300px;
+    min-height: 100%;
+    box-shadow: 2px 2px rgb(134, 134, 134);
+}
+
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow:1;
+    background-color:pink;
+    margin-top:0;
+    max-width: 40vw;
+    min-height:60vh;
+    box-shadow: 2px 2px rgb(134, 134, 134);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .category-icons{
+    flex-grow:1;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+}
+
+  .icon{
+    border:1px solid rgb(170, 170, 170);
+    border-radius:30%;
+    height:100px;
+    width:100px;
+}
+
+.right-container{
+    flex-grow: 1;
+    margin-left:20px;
+    flex-direction: column;
+}
+
+.delivery{
+    background-color: whitesmoke;
+    height:48vh;
+    background-image: url("delivery.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    text-align: center;
+    box-shadow: 2px 2px rgb(134, 134, 134);
+    margin-bottom: 15px;
+}
+
+
+.feedback-form{
+    height: 800px;
+    width: 300px !important;
+    /* border: 1px solid black; */
+    background: rgb(153, 153, 153);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding-top:15px;
+    margin-top: 15px;
+  }
